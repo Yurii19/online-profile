@@ -1,0 +1,40 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+ body {
+  font-family: 'Comfortaa', cursive;
+ }
+ .collapsible-body {
+  color: #4a69bd;
+ }
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.intro {
+  font-family: 'Special Elite', cursive;
+  font-family: 'Sniglet', cursive;
+  font-family: 'Syne Mono', monospace;
+  font-family: 'Gluten', cursive;
+  /* font-family: 'Single Day', cursive; */
+
+  color: #3c6382;
+}
+.intro > div {
+  margin: 0 auto;
+}
