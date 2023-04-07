@@ -6,25 +6,42 @@
  * Made By MaterializeCSS.com
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
- body {
+body {
   font-family: 'Comfortaa', cursive;
- }
- .collapsible-body {
-  color: #4a69bd;
- }
+}
+.collapsible-body {
+  color: #cd6133;
+  font-size: 1.4em;
+}
+.collapsible-body > .flow-text {
+  color: #cd6133;
+}
+
+.collapsible-body > span > a {
+  display: inline-flex;
+  font-size: 0.7em;
+  /* width: 30%; */
+  overflow: hidden;
+  margin: 10px;
+  /* margin: 0 auto; */
+}
+.collapsible-body > span > a > span {
+  margin-left: 15px;
+}
+
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
-	font-size: inherit;
+  font-size: inherit;
 }
 .intro {
   font-family: 'Special Elite', cursive;
@@ -32,9 +49,12 @@
   font-family: 'Syne Mono', monospace;
   font-family: 'Gluten', cursive;
   /* font-family: 'Single Day', cursive; */
-
+  /* display: flex; */
   color: #3c6382;
+  /* align-items: center; */
 }
-.intro > div {
-  margin: 0 auto;
+.logo {
+  /* border: 1px solid black; */
+  /* padding: 0 !important; */
 }
+
