@@ -31,6 +31,7 @@ body {
   /* width: 30%; */
   overflow: hidden;
   margin: 10px;
+  width: 30%;
   /* margin: 0 auto; */
 }
 .collapsible-body > span > a > span {
@@ -57,4 +58,8 @@ body {
   /* border: 1px solid black; */
   /* padding: 0 !important; */
 }
-
+@media only screen and (max-width: 700px) {
+  .collapsible-body > span > a {
+    width: 90%;
+  }
+}
