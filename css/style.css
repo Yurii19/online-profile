@@ -81,9 +81,11 @@ hr {
   width: 30%;
   display: inline-block;
 }
-/* .education {
+.education > div{
+  /* border: 1px solid red; */
   display: flex;
-} */
+  justify-content: space-around;
+}
 .card-content {
   height: 170px;
 }
