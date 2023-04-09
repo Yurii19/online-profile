@@ -69,14 +69,23 @@ span > b {
   transform: rotate(-10deg);
   /* border: 1px solid red; */
 }
-span > a > u {
-  transform: rotate(90deg);
-  /* border: 1px solid red; */
+a > img {
+  border: 1px solid blue;
 }
 hr {
   background-color: rgba(0, 0, 0, 0.1);
   height: 1px;
   border: 0;
+}
+.card {
+  width: 30%;
+  display: inline-block;
+}
+/* .education {
+  display: flex;
+} */
+.card-content {
+  height: 170px;
 }
 
 @media only screen and (max-width: 700px) {
